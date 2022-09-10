@@ -95,7 +95,7 @@ function displaySection(link,section) {
 document.documentElement.style.setProperty('--background-color', '#fafafa');
 function switchDarkLightMode() {
     let icon = document.querySelector("#switch-container img");
-   
+
     icon.onclick = () => {
     let darkColor = "#111216"; 
     let darkTextColor = "#999";
@@ -142,9 +142,24 @@ function switchDarkLightMode() {
     }
     }
 }
-  
-
-
+let icon = document.querySelector("#switch-container img");
+let darkColor = "#111216"; 
+    let darkTextColor = "#999";
+    let darkTextTitleColor = "#eee";
+    let darkTextHoverColor = "#ddd";
+    let darkAccentColor = "#222";
+    icon.setAttribute("src","images/sun.svg");
+    document.documentElement.style.setProperty('--background-color',darkColor);
+    document.documentElement.style.setProperty('--text-color',darkTextColor);
+    document.documentElement.style.setProperty('--text-title-color',darkTextTitleColor);
+    document.documentElement.style.setProperty('--text-hover-color',darkTextHoverColor);
+    document.documentElement.style.setProperty('--light-accent-color',darkAccentColor);
+    icon.onmouseover = () => {
+            icon.setAttribute("src","images/sun-filled.svg");
+    }
+    icon.onmouseout = () => {
+            icon.setAttribute("src","images/sun.svg");
+    }
 switchDarkLightMode();
 displaySection("about-me","about-me-section");
 displaySection("skills","skills-section");
