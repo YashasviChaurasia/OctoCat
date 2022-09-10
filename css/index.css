@@ -28,7 +28,7 @@
     opacity: 0.3;
   }
   100% {
-    opacity: 1;
+    opacity: 0.8;
     transform: translateY(0em);
   }
 }
@@ -41,9 +41,9 @@
     font-size: 0.8em;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
     transform: translateY(-2em);
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
 
@@ -56,7 +56,6 @@
     opacity: 0.2;
     transform: translateY(+50em);
   }
-
   100% {
     opacity: 1;
     transform: translateY((0em));
@@ -131,19 +130,19 @@ section {
   margin: 0em auto;
   font-size: 10rem;
   font-weight: bolder;
-  font-family: nunito;
+  font-family: poppins;
   opacity: 0.03;
-  top: 0;
+  top: 50px;
   left: -2em;
   z-index: -1000;
 }
 .watermark:nth-child(2) {
   position: fixed;
   margin: 0em auto;
-  font-size: 27rem;
+  font-size: 16rem;
   font-weight: bolder;
-  font-family: nunito;
-  opacity: 0.03;
+  font-family: poppins;
+  opacity: 0.02;
   overflow: hidden;
   bottom: 0em;
   right: -1em;
@@ -154,8 +153,8 @@ section {
   margin: 0em auto;
   font-size: 2rem;
   font-weight: bolder;
-  font-family: nunito;
-  opacity: 0.03;
+  font-family: poppins;
+  opacity: 0.05;
   overflow: hidden;
   bottom: 0;
   left: 0;
@@ -177,6 +176,7 @@ section {
   animation-timing-function: ease-in-out;
   font-weight: bold;
   animation-fill-mode: forwards;
+  
 }
 
 #menu {
@@ -211,10 +211,11 @@ section {
 }
 
 #switch-container img {
-  width: 2em;
-  height: 2em;
+  width: 1.5em;
+  height: 1.5em;
   cursor: pointer;
   animation: ldIcon;
+  padding-top: 10px;
   animation-duration: 1.5s;
   position: fixed;
   top: 1.9vw;
@@ -316,7 +317,7 @@ section h2 {
 }
 
 #links-section > div > *:hover {
-  opacity: 1;
+  opacity: 0.5;
 }
 
 article {
