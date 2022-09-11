@@ -141,6 +141,7 @@ function switchDarkLightMode() {
         }
     }
     }
+    
 }
 let icon = document.querySelector("#switch-container img");
 let darkColor = "#111216"; 
