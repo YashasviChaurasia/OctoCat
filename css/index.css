@@ -32,6 +32,20 @@
     transform: translateY(0em);
   }
 }
+@keyframes octoguy {
+  0% {
+    opacity: 0;
+    transform: translateY(+100em);
+  }
+  50% {
+    transform: translateY(-1em);
+    opacity: 0.025;
+  }
+  100% {
+    opacity: 0.05;
+    transform: translateY(0em);
+  }
+}
 @keyframes slogan {
   0% {
     opacity: 0;
@@ -107,6 +121,15 @@
 html {
   background-color: var(--background-color);
 }
+.hSyxBG {
+  display: flex;
+  gap: 16px;
+  opacity: 0.5;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 16px;
+  line-height: 24px;
+  transition: all 0.2s ease 0s;
+}
 #abt{
   display:flex;
   flex-direction: column;
@@ -114,6 +137,7 @@ html {
 }
 #oct2{
   padding-right: 50px;
+  opacity: 0.4;
 }
 
 body {
@@ -178,6 +202,17 @@ section {
   animation-duration: 1.7s;
   animation-timing-function: ease-out;
   color: var(--text-title-color);
+  opacity: 0.8;
+}
+#octoguy{
+  justify-self: flex-start;
+  animation-name: octoguy;
+  font-weight:bold;
+  font-family: "poppins", helvetica, arial;
+  animation-duration: 1.7s;
+  animation-timing-function: ease-out;
+  color: var(--text-title-color);
+  opacity: 0.05;
 }
 
 #slogan {
