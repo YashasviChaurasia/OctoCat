@@ -141,7 +141,7 @@ function switchDarkLightMode() {
         }
     }
     }
-    
+
 }
 let icon = document.querySelector("#switch-container img");
 let darkColor = "#111216"; 
@@ -161,7 +161,7 @@ let darkColor = "#111216";
     icon.onmouseout = () => {
             icon.setAttribute("src","images/sun.svg");
     }
-    
+
 switchDarkLightMode();
 displaySection("about-me","about-me-section");
 displaySection("skills","skills-section");
