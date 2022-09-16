@@ -45,6 +45,11 @@ function displaySection(link,section) {
                 linkWrapper.style.display = "flex";
                 linkWrapper.style.flexDirection = "column";
 
+            }else if (section == "resume-section") {
+                let linkWrapper = document.querySelector(`#${section} div`);
+                linkWrapper.style.display = "flex";
+                linkWrapper.style.flexDirection = "column";
+
             }
             sec.classList.remove("section");
             sec.style.display = "block";
