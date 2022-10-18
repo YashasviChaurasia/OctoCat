@@ -5,7 +5,7 @@ This is the source code for my Portfolio Website.
 Lesss gooooooo ROOK
 
 
- aka `OctoGuy`
+ aka `Octops`
 
 
 <img align="center" src="https://github.githubassets.com/images/mona-loading-default.gif" alt="drawing" width="100"/>
