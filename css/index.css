@@ -139,6 +139,11 @@ html {
   border-radius: 50%;
   opacity: 0.7;
 }
+.rook{
+  /* border-radius: 50%; */
+  /* height: 10%; */
+  opacity: 0.7;
+}
 #oct2{
   padding-right: 50px;
   opacity: 0.5;
